@@ -30,6 +30,8 @@ c. The final steps include Making the model (i.e filling out the missing code in
 4. For this problem, I had to read the pytorch lightning documentation and various forums on the internet. Some people wrote about setting the trainer flag value to the specified GPU number. However, a better explanation I found out on YouTube was to use model.cuda(GUP_ID), where we can explicitly specify the GPU value. Also, another forum suggested to use os.environ["CUDA_VISIBLE_DEVICES"]="GPU_ID" in the script and set CUDA_VISIBLE_DEVICES = GPU_ID. Learning about these methods of explicitly involivng the GPU to train models was a great learning experince, and I am looking forward to test this practically on a more compatible computer soon. 
 
 
+I could not include the wandb graphs and output images in this answer sheet as I could not completely configure the compilation and training of the model. After setting up the environment on VSCode and working on the Yaml and GAN model files, I installed the specified libraries required for the test and in the requirements file. There was an error installing some packages on the Mac M1 chip, and I could not debug specific errors by looking though documentation and forums. 
+
 
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
