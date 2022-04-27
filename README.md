@@ -16,6 +16,15 @@
 
 2. Noise in this case is the generator's input. The role of the generator here is to take this random vector (noise) and create a meaningful output. The meaningful output here is defined by the label which specifies which digit we are trying to generate through the given noise. For example, we feed the generator random noise with  the label 5: the generator will output a fake image which resembles the digit 5. The lable should be a real value or a true value, as we aim for the generator to give a high output, i.e. 1, (which is the probability of being a real image). 
 
+3. This was my first time working on NN and high level python packages, and it was pretty fun. I was not sure how to proceed witht the test, as all the data and theory initially felt quiet overwhelming. However, according to my understanding of the methods I used to accomplish the task, below are the steps that should be taken care of:
+
+a. Setting up an environment. It was initially difficult for me as I was using online python notebooks and google collab to run the python files. However after referring to sources online, I understood that the best way to start up with the work is by cloning thr github respository in the VSCode editor, and work on a development environment which is relevenat to the task, such as, conda. I ran the requirements.txt file to check the things I was missign. (Although it did not compile successfully, but through the process I could figure out the things I was missing).
+
+b. After compiling the code I realised that I was missing a lot of libraries and packages that were required to be installed in the IDE, like omegaconf for the YAML file, hydra, dotenv, wandb etc. 
+
+c. The final steps include Making the model (i.e filling out the missing code in the mnist_gan_model.py) and testing the model (this process failed for me due to IDE and configuration issues on my M1 mac).
+
+4.
 
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
