@@ -14,7 +14,9 @@
 
 1.  A generator is a neural network that creats fake samples, and the role of the discriminator is to identify these fake samples. During training, the generator tries to fool the discriminator into believing that these images are real and they belong to the dataset. In the given case, the generator will create fake MNIST samples (which comprises of the different digits) and the role of the discriminator is to identify these fake samples and avoid getting tricked. 
 
+
 2. Noise in this case is the generator's input. The role of the generator here is to take this random vector (noise) and create a meaningful output. The meaningful output here is defined by the label which specifies which digit we are trying to generate through the given noise. For example, we feed the generator random noise with  the label 5: the generator will output a fake image which resembles the digit 5. The lable should be a real value or a true value, as we aim for the generator to give a high output, i.e. 1, (which is the probability of being a real image). 
+
 
 3. This was my first time working on NN and high level python packages, and it was pretty fun. I was not sure how to proceed witht the test, as all the data and theory initially felt quiet overwhelming. However, according to my understanding of the methods I used to accomplish the task, below are the steps that should be taken care of:
 
@@ -24,7 +26,8 @@ b. After compiling the code I realised that I was missing a lot of libraries and
 
 c. The final steps include Making the model (i.e filling out the missing code in the mnist_gan_model.py) and testing the model (this process failed for me due to IDE and configuration issues on my M1 macbook).
 
-4.
+
+4. 
 
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
