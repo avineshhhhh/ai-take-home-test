@@ -9,6 +9,19 @@
 
 </div>
 
+
+## ANSWERS 
+
+
+## QUESTIONS
+
+1.  A generator is a neural network that creats fake samples, and the role of the discriminator is to identify these fake samples. During training, the generator tries to fool the discriminator into believing that these images are real and they belong to the dataset. In the given case, the generator will create fake MNIST samples (which comprises of the different digits) and the role of the discriminator is to identify these fake samples and avoid getting tricked. 
+
+2. Noise in this case is the generator's input. The role of the generator here is to take this random vector (noise) and create a meaningful output. The meaningful output here is defined by the label which specifies which digit we are trying to generate through the given noise. For example, we feed the generator random noise with  the label 5: the generator will output a fake image which resembles the digit 5. The lable should be a real value or a true value, as we aim for the generator to give a high output, i.e. 1, (which is the probability of being a real image). 
+
+3. yes
+
+
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
 some of the tools we use every day at Pantheon to help with our research.
