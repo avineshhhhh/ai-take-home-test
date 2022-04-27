@@ -22,7 +22,7 @@ a. Setting up an environment. It was initially difficult for me as I was using o
 
 b. After compiling the code I realised that I was missing a lot of libraries and packages that were required to be installed in the IDE, like omegaconf for the YAML file, hydra, dotenv, wandb etc. 
 
-c. The final steps include Making the model (i.e filling out the missing code in the mnist_gan_model.py) and testing the model (this process failed for me due to IDE and configuration issues on my M1 mac).
+c. The final steps include Making the model (i.e filling out the missing code in the mnist_gan_model.py) and testing the model (this process failed for me due to IDE and configuration issues on my M1 macbook).
 
 4.
 
