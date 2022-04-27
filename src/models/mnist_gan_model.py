@@ -105,3 +105,4 @@ class MNISTGANModel(LightningModule):
                 # TODO: log fake images to wandb (https://docs.wandb.ai/guides/track/log/media)
                 #     : replace `None` with your wandb Image object
                 logger.experiment.log({"gen_imgs": None})
+#justin tutu
