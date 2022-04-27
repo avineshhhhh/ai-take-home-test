@@ -27,7 +27,9 @@ b. After compiling the code I realised that I was missing a lot of libraries and
 c. The final steps include Making the model (i.e filling out the missing code in the mnist_gan_model.py) and testing the model (this process failed for me due to IDE and configuration issues on my M1 macbook).
 
 
-4. 
+4. For this problem, I had to read the pytorch lightning documentation and various forums on the internet. Some people wrote about setting the trainer flag value to the specified GPU number. However, a better explanation I found out on YouTube was to use model.cuda(GUP_ID), where we can explicitly specify the GPU value. Also, another forum suggested to use os.environ["CUDA_VISIBLE_DEVICES"]="GPU_ID" in the script and set CUDA_VISIBLE_DEVICES = GPU_ID. Learning about these methods of explicitly involivng the GPU to train models was a great learning experince, and I am looking forward to test this practically on a more compatible computer soon. 
+
+
 
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
